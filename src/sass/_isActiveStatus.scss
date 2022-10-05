@@ -1,0 +1,27 @@
+.active-status {
+    height: 29px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 4px;
+
+    color: var(--active-button-text-color);
+    background: var(--active-button-bg-color);
+    border: 1px solid var(--active-button-border-color);
+}
+
+.inactive-status {
+    height: 29px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 4px;
+
+    color: var(--inactive-button-text-color);
+    background: var(--inactive-button-bg-color);   
+    border: 1px solid var(--inactive-button-text-color);
+}

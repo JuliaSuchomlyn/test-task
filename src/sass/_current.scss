@@ -1,0 +1,13 @@
+.current {
+    background-color: var(--accent-color);
+    .site-nav__prime-icon {
+        stroke: none;
+        fill: white;
+    }
+    .site-nav__secondary-icon {
+        stroke: white;
+    }
+    .site-nav__text {
+        color: white;
+    }
+}

@@ -1,0 +1,27 @@
+.logo {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--secondary-color);
+    a {
+        color: currentColor;
+    }
+}
+.logo__version {
+    margin-left: 4px;
+    justify-content: center;
+    // flex-basis: ;
+    // align-self: flex-end;
+    font-weight: 500;
+    font-size: 10px;
+    color:  #838383;
+}
+.logo__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-icon {
+    margin-right: 8px;
+}

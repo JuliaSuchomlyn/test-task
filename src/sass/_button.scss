@@ -1,0 +1,53 @@
+.user-info {
+    display: flex;
+}
+.user-info__photo {
+    margin-right: 12px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-image: url(https://s3-alpha-sig.figma.com/img/3389/ec29/9edb640f65b7cb2d606c9ae4d3bd74e2?Expires=1665964800&Signature=ShuvCj89c9eV--Am6bjYBH9of3l-fk~zx-0lQBjFW4xnkrbJnZQx~63uADAwMvzCp-KOTxzBLspgN0L~~oz1EdoUJdRPYmcxPoWk7pEUsgDCB0bP10ZnLm1UteR1Ce7XYuqDDI7JFwPtQBKrYXwhjtk21t3zPjt6VGRU2-R2zWagu9LBLPFPGUrdj0jjhOvaMPYdn5nMxzBGQsfu~188kz6vYTJpzqnPxj5Ae7IN8ldA8JNBcj2KDPp0RnBLdXKLLQet4J84ojVTQTadYiPYfE0aWR1XdlYeKr2QjA~FWt8zKCq5QopzOn6kvExFHSjRZjL4-1ih--sH0hTjcMhzbQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.user-info__discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.user-info__name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+.user-info__role {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--users-info-color);
+}
+.button-user {
+    @media screen and (max-width: 1439.98px) {
+        position: absolute;
+
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0);
+
+        }
+
+    cursor: pointer;
+
+    margin-top: auto;
+    border: none;
+    background-color: transparent;
+    display: flex;
+}
